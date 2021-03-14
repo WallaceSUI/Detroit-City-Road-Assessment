@@ -16,9 +16,11 @@ you can see some examples from data file
 
 For our training dataset, we have road images from three countries (see Fig.1), which are Japan, India and Czech. For data in Japan, there are 9053 images from 2018 collections and 13133 images from 2019 collections. For data in India and Czech, there are nearly 9892 images and 3595 images. We can also see that for different types of cracks, there are different number of data. In addition, we can also see the types of road damages in Fig.2. We can see that there are many different damage types such as damages about constriction joint part, white line blur, and equal interval. For training dataset, we will have GT labels for each image data (see Fig.3). There are two GT labels that we have, the first one is the position of the crack region boundary box, the second one is the type of cracks in images.
 
-<center class="half">
-<img src="codes/part1codes/reportdata/fig1.png" width = "33%" /><img src="codes/part1codes/reportdata/fig2.png" width = "33%" /><img src="codes/part1codes/reportdata/fig3.png" width = "33%" />
-</center>
+![figure1](https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig1.png)
+
+![figure2](https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig2.png)
+
+![figure3](https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig3.png)
 
 
 ## 2: Testing Dataset Used for the Model
