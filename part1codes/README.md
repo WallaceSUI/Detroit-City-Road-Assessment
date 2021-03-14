@@ -24,9 +24,9 @@ In the original image data, what we can see is not from a single view. It seems 
 
 Then we can see that for these image data, there are still some problems here. For example, we can see the trees and cars in the street, but we cannot consider any cracks on these objects. Based on these conditions, it is better that we can have a mask to cover the region outside the roads, which can make our model focus on only road region. After the manipulation, we can see some examples in Fig.6. We can find that after we add masks into the original images, output images can only have the clear region for the street and all the things outside the street are masked.
 
-<center class="half">
+<p float="left">
 <img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig5.png" width = "33%" /><img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig6.png" width = "33%" />
-</center>
+</p>
 
 ## 4: Model Design and Results
 There are many different frameworks and model structures that we can use for this part. We first tried different combination of the framework and model structure. Then we find that combining SSD with mobilenet is a good choice here. The key idea in the SSD framework is the one-shot mechanism (see Fig.7). Compared with other methods, one-shot mechanism can make SSD framework to be very fast on any condition, Besides this, SSD also has two other novel designs. The first is using different multi-scale of feature maps during the training, and the second is using different multi-scale of prior boxes for detection. These designs can help the model detect not only big objects but also small objects in the image.
@@ -35,6 +35,6 @@ The mobilenet is another design which considers using the depthwise separable co
 
 After combining these two structures together (see Fig.8, our model can directly predict the crack regions in our testing dataset. We can see that for each road image, our model can predict the crack’s bounding box in the image with its crack type, confidence score and the position information of the bounding box.
 
-<center class="half">
+<p float="left">
 <img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig7.png" width = "33%" /><img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig8.png" width = "33%" /><img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig9.png" width = "33%" />
-</center>
+</p>
