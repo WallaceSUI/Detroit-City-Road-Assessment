@@ -1,6 +1,6 @@
-# Detroit-City-Road-Assessment (see part1)
+# Detroit-City-Road-Assessment
 
-## 1: Road Crack Detection
+## 1: Road Crack Detection (see part1)
 The road damage condition is primarily based on visual observations by people and some detection machines. For the first one, which is that check the condition by people, it needs experienced road managers and it is very expensive. In addition, by using visual observation, we cannot have a con- sistent inspection since some areas in the region may be ignored. In another way, many measurement system appears based on the large-scale inspection are widely conducted. However, it is considerably expensive to conduct such comprehensive inspections especially for small municipalities that lack the required financial resources.
 
 Therefore, based on the issues mentioned above, some methods have been made to develop a method for analyzing road properties by using a combination of image processing technology and traditional camera record- ings. For example, a previous study proposed an pavement crack detection method using image processing techniques and a naive Bayes-based machine- learning approach [2]. In recent years, using deep neural network becomes a possible way to analyze the damage to road surfaces [16]. But those road damage detection methods focus only on the determination of the existence of damage. It is very necessary to know the position of cracks and the types of cracks. These kind of information can help us to better understand the conditions of cracks in a road and this makes it flexible to combine the framework with other useful applications.
