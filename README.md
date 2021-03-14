@@ -1,4 +1,4 @@
-# Detroit-City-Road-Assessment
+# Detroit-City-Road-Assessment (see part1)
 
 ## 1: Road Crack Detection
 The road damage condition is primarily based on visual observations by people and some detection machines. For the first one, which is that check the condition by people, it needs experienced road managers and it is very expensive. In addition, by using visual observation, we cannot have a con- sistent inspection since some areas in the region may be ignored. In another way, many measurement system appears based on the large-scale inspection are widely conducted. However, it is considerably expensive to conduct such comprehensive inspections especially for small municipalities that lack the required financial resources.
@@ -19,7 +19,7 @@ Inception V2 [5] and Inception V3 [14] enable one to increase the depth and brea
 
 MobileNet [3] has been shown to achieve an accuracy comparable to VGG-16 on ImageNet with only 1/30th of the computational cost and model size. MobileNet is designed for efficient inference in various mobile vision applications. Its building blocks are depthwise separable convolutions that factorize a standard convolution into a depthwise convolution and a 1 Ö 1 convolution, effectively reducing both the computational cost and number of parameters.
 
-## 2: Crack Shapes Detection
+## 2: Crack Shapes Detection (see part2)
 There are many traditional crack shapes detection methods based on tradi- tional image processing techniques such as using image thresholding, edge detection methods, and wavelet transform.
 
 Image thresholding is a kind of preprocessing algorithm which is first used to reduce the illumination artifacts. Then thresholding is applied to the image to yield crack candidates. The processed crack image is further refined using morphological technologies. [4] is one of representatives of this group, which leverage graph-based methods for crack candidates refinement.
