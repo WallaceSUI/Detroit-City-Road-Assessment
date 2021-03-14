@@ -6,9 +6,9 @@ For our training dataset, we have road images from three countries (see Fig.1), 
 
 
 
-<center class="half">
+<p float="left">
 <img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig1.png" width = "33%" /><img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig2.png" width = "33%" /><img src="https://github.com/WallaceSUI/Detroit-City-Road-Assessment/blob/main/part1codes/reportdata/fig3.png" width = "33%" />
-</center>
+</p>
 
 
 ## 2: Testing Dataset Used for the Model
